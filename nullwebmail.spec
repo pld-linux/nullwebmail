@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2+
 Group:		Applications/Mail
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	3ba7c37c5c7b58269ef72b0a27e6cefb
 Patch0:		%{name}-pl.patch
 URL:		http://www.nulllogic.com/webmail/
 Requires:	webserver
