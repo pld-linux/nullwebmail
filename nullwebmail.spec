@@ -11,6 +11,7 @@ Patch0:		%{name}-config.patch
 URL:		http://nullwebmail.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	perl-base
 Requires:	webserver
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -36,7 +37,8 @@ i u¿ytkowaniu.
 
 %configure
 
-%{__make} CFLAGS="-Wall -I../include %{rpmcflags}"
+%{__make} \
+	CFLAGS="-Wall -I../include %{rpmcflags}"
 mv webmail.cgi webmail-en.cgi
 
 perl -pi -e 's#strings-en#strings-pl#' include/config.h
