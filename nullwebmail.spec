@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 Patch0:		%{name}-config.patch
 URL:		http://nullwebmail.sourceforge.net/
 BuildRequires:	autoconf
+BuildRequires:	automake
 Requires:	webserver
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
