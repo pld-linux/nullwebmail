@@ -9,6 +9,7 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	718fbbb7b445e033c42ddad61908e326
 Patch0:		%{name}-config.patch
 URL:		http://nullwebmail.sourceforge.net/
+BuildRequires:	autoconf
 Requires:	webserver
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
