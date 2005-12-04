@@ -5,7 +5,7 @@ Version:	0.8.4
 Release:	1
 License:	GPL v2+
 Group:		Applications/Mail
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/nullwebmail/%{name}-%{version}.tar.gz
 # Source0-md5:	718fbbb7b445e033c42ddad61908e326
 Patch0:		%{name}-config.patch
 URL:		http://nullwebmail.sourceforge.net/
@@ -60,6 +60,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog README
 %dir %{_sysconfdir}/nullwebmail
-%config %verify(not md5 size mtime) %{_sysconfdir}/nullwebmail/webmail.cfg
+%config %verify(not md5 mtime size) %{_sysconfdir}/nullwebmail/webmail.cfg
 %attr(755,root,root) %{_httpdir}/cgi-bin/*.cgi
 %{_httpdir}/html/webmail
