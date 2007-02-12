@@ -1,5 +1,5 @@
 Summary:	Simple webmail using POP3 or IMAP
-Summary(pl):	Prosty webmail uøywaj±cy POP3 lub IMAP
+Summary(pl.UTF-8):   Prosty webmail u≈ºywajƒÖcy POP3 lub IMAP
 Name:		nullwebmail
 Version:	0.8.4
 Release:	1
@@ -22,10 +22,10 @@ Null Webmail is a simple yet powerful POP3/IMAP/SMTP Webmail CGI
 written in C. It's small, fast, complete, and a breeze to install and
 use.
 
-%description -l pl
-Null Webmail jest prostym interfejsem webmail dla serwerÛw
-POP3/IMAP/SMTP napisanym w C. Jest ma≥y, szybki i banalny w instalacji
-i uøytkowaniu.
+%description -l pl.UTF-8
+Null Webmail jest prostym interfejsem webmail dla serwer√≥w
+POP3/IMAP/SMTP napisanym w C. Jest ma≈Çy, szybki i banalny w instalacji
+i u≈ºytkowaniu.
 
 %prep
 %setup -q
