@@ -1,5 +1,5 @@
 Summary:	Simple webmail using POP3 or IMAP
-Summary(pl.UTF-8):   Prosty webmail używający POP3 lub IMAP
+Summary(pl.UTF-8):	Prosty webmail używający POP3 lub IMAP
 Name:		nullwebmail
 Version:	0.8.4
 Release:	1
